@@ -1,0 +1,4 @@
+FROM: centos
+CMD: apachectl -D --FOREGROUND
+EXPOSE: 80
+RUN: yum install docker -y
